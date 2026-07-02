@@ -1,0 +1,6 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "A minimalist, fully functional Pomodoro timer with work and break sessions, task tracking, and statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
