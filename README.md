@@ -26,6 +26,23 @@ This application is built as a modern Single Page Application (SPA) using the fo
 * **State Management:** Custom React hooks (`useStickyState`) utilizing the browser's `localStorage` API to persist user data (theme, history, daily stats) across sessions.
 * **Browser APIs:** Utilizes the Web Audio API for sound alerts and the Notifications API for desktop notifications.
 
+## Project File Structure
+
+```text
+/
+├── assets/              # Static assets (images, icons, etc.)
+├── src/                 # Source code
+│   ├── App.tsx          # Main application component & core logic
+│   ├── index.css        # Global styles and Tailwind configuration
+│   └── main.tsx         # React application entry point
+├── .env.example         # Example environment variables
+├── .gitignore           # Git ignore rules
+├── index.html           # Main HTML template
+├── package.json         # Project metadata and dependencies
+├── tsconfig.json        # TypeScript configuration
+└── vite.config.ts       # Vite bundler configuration
+```
+
 ## How to Install and Run Locally
 
 Follow these steps to get the project running on your local machine:
